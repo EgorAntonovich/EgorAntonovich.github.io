@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: antiquewhite;
 }
 
 .left-menu{
@@ -30,7 +31,7 @@ body{
     display: flex;
     flex-direction: row;
     margin: 15vh 10vh 15vh 10vh;
-    background: beige;
+    background: #696969;
     height: 70vh;
 }
 
@@ -49,4 +50,9 @@ img {
     margin: -3vh 0 -3vh 0;
     display: flex;
     flex-direction: column;
+}
+
+.material-icons{
+    font-size: 36px!important;
+    color: #FFFAFA;
 }
