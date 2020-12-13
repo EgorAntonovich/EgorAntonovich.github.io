@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Change colors. Styling icons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatar.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607199712161</updated>
       <workItem from="1607199714685" duration="22788000" />
+      <workItem from="1607873233675" duration="14573000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1607510005695</created>
@@ -100,6 +103,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />

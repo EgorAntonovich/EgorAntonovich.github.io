@@ -1,29 +1,25 @@
 body{
     margin: 0;
     background-color: antiquewhite;
+    background-image: url("../images/backgrounds/background-white.jpg");
 }
 
-.left-menu{
-    padding: 10px;
-}
-.menu-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+img {
+    width: 100%;
     height: 100%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border-radius: 26px;
 }
 
-.list{
-    list-style-type: none;
-    padding: 10px;
-    display: flex;
-    flex-flow: column;
-    height: 40%;
-    justify-content: inherit;
+h1{
+    color: #eefbfb;
 }
 
-.left-side-container{
-    display:flex;
+.avatar-image{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border-radius: 26px;
 }
 
 .container{
@@ -35,24 +31,131 @@ body{
     height: 70vh;
 }
 
-img {
-    width:30%;
-    height:100%;
-    box-shadow: 0 0 30px rgba(0,0,0,0.5);
-    border-radius: 26px;
+.education{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
-.person-avatar{
+.faculty, .degree, .years, .university {
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+}
+
+
+.left-menu{
+    padding: 10px;
+}
+
+.left-side-container{
+    display:flex;
+    width: 50%;
+}
+
+.list{
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    height: 40%;
+    justify-content: inherit;
+}
+
+.material-icons{
+    font-size: 36px!important;
+    color: #eefbfb;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100%;
+    align-items: center;
 }
 
 .person{
     margin: -3vh 0 -3vh 0;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-.material-icons{
-    font-size: 36px!important;
+.person-avatar{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.person-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.person-name, .person-position{
+    font-family: Blippo, fantasy;
+    font-size: 33px;
     color: #FFFAFA;
+}
+
+.person-social-links{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    color: #FFFAFA;
+}
+
+.right-side-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.specialization{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.telegram, .instagram, .skype, .linkedin{
+    padding: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #808080;
+    border-radius: 10px;
+    height: 10px;
+    border: 3px solid darkgrey;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4d4d4d;
 }
