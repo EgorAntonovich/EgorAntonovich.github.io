@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Change colors. Styling icons">
+    <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Add background. Add social networks icons and links. add gray colorstyle. Add rightside menu. Add new scrollbar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatar.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607199712161</updated>
       <workItem from="1607199714685" duration="22788000" />
-      <workItem from="1607873233675" duration="14573000" />
+      <workItem from="1607873233675" duration="15651000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1607510005695</created>
@@ -87,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607637977599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add background. Add social networks icons and links. add gray colorstyle. Add rightside menu. Add new scrollbar.">
+      <created>1607897669970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607897669970</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +115,7 @@
     <MESSAGE value="Ad some styles. Create left side of site" />
     <MESSAGE value="Add image borders. Change styles." />
     <MESSAGE value="Change colors. Styling icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change colors. Styling icons" />
+    <MESSAGE value="Add background. Add social networks icons and links. add gray colorstyle. Add rightside menu. Add new scrollbar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add background. Add social networks icons and links. add gray colorstyle. Add rightside menu. Add new scrollbar." />
   </component>
 </project>
