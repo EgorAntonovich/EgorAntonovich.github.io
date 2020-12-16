@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Fix info container width">
+    <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Add responsive fixes. Delete useless styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
@@ -57,7 +57,7 @@
       <updated>1607199712161</updated>
       <workItem from="1607199714685" duration="22788000" />
       <workItem from="1607873233675" duration="32718000" />
-      <workItem from="1608031905612" duration="20486000" />
+      <workItem from="1608031905612" duration="21803000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1607510005695</created>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608151752493</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add responsive fixes. Delete useless styles">
+      <created>1608154621214</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608154621214</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +173,7 @@
     <MESSAGE value="Responsibility fixes" />
     <MESSAGE value="Add social icons" />
     <MESSAGE value="Fix info container width" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix info container width" />
+    <MESSAGE value="Add responsive fixes. Delete useless styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add responsive fixes. Delete useless styles" />
   </component>
 </project>

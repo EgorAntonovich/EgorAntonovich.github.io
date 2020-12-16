@@ -75,7 +75,7 @@ hr{
     flex-direction: row;
 }
 
-.experience span{
+.experience-technologies span{
     font-size: 1em;
     border-bottom: 1px solid antiquewhite;
 }
@@ -220,7 +220,7 @@ hr{
 }
 
 
-.skills span, .experience span{
+.skills span, .work-experience span{
     padding: 1px;
     margin: 5px;
     font-weight: bolder;
@@ -310,4 +310,39 @@ hr{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #4d4d4d;
+}
+
+@media all and (max-width: 376px) {
+    .container{
+        margin:0;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .person{
+        margin: 0;
+    }
+
+    .left-side-container{
+        max-width: none;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .right-side-container{
+        max-width: none;
+    }
+
+    .list{
+        flex-direction: row;
+    }
+
+    .menu-list{
+        flex-direction: row;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
 }
