@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Change color of name and position fields">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/social-networks/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/social-networks/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/social-networks/skype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/social-networks/telegram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Responsibility fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +54,7 @@
       <updated>1607199712161</updated>
       <workItem from="1607199714685" duration="22788000" />
       <workItem from="1607873233675" duration="32718000" />
-      <workItem from="1608031905612" duration="16930000" />
+      <workItem from="1608031905612" duration="17477000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1607510005695</created>
@@ -120,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607989093745</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Responsibility fixes">
+      <created>1608150900582</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608150900582</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +146,7 @@
     <MESSAGE value="Add personal info." />
     <MESSAGE value="Add all information about me. Restyle page. Create more responsive." />
     <MESSAGE value="Change color of name and position fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change color of name and position fields" />
+    <MESSAGE value="Responsibility fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsibility fixes" />
   </component>
 </project>
