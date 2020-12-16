@@ -14,7 +14,7 @@ img {
 h1{
     color: ghostwhite;
     margin-block-end: 0;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 h2{
@@ -75,6 +75,11 @@ hr{
     flex-direction: row;
 }
 
+.experience span{
+    font-size: 1em;
+    border-bottom: 1px solid antiquewhite;
+}
+
 .faculty, .degree, .years, .university {
     font-size: 15px;
     font-weight: 900;
@@ -109,7 +114,7 @@ hr{
 }
 
 .material-icons{
-    font-size: 36px!important;
+    font-size: 2.5em!important;
     color: ghostwhite;
     border-radius: 26px;
 }
@@ -135,7 +140,7 @@ hr{
 
 .personal-details a{
     color: ghostwhite;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
     font-style: italic;
     text-decoration: none;
@@ -149,12 +154,12 @@ hr{
 }
 
 .personal-details p{
-    margin-block-end: 0;
+    margin-block-end: 1.5em;
 }
 
 .personal-details span{
     color: ghostwhite;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
     font-style: italic;
     padding-left: 3px;
@@ -182,7 +187,7 @@ hr{
 
 .person-name, .person-position{
     font-family: Blippo, fantasy;
-    font-size: 33px;
+    font-size: 2em;
     color: antiquewhite;
 }
 
@@ -218,11 +223,14 @@ hr{
 .skills span, .experience span{
     padding: 1px;
     margin: 5px;
-    font-size: 16px;
     font-weight: bolder;
     font-style: italic;
     color: ghostwhite;
     border-bottom: 1px solid antiquewhite;
+}
+
+.skills span{
+    font-size: 1.3em;
 }
 
 .skills-list{
@@ -236,6 +244,9 @@ hr{
     margin-block-start: 1em;
 }
 
+.skills h2, .specialization h2{
+    font-size: 1.5em;
+}
 
 .telegram, .instagram, .skype, .linkedin{
     padding: 2px;
@@ -243,6 +254,7 @@ hr{
 
 .university, .faculty, .degree, .years{
     font-style: italic;
+    font-size: 1.3em;
 }
 
 .work-experience{
@@ -250,6 +262,10 @@ hr{
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
+}
+
+.work-experience h2{
+    font-size: 1.5em;
 }
 
 .work-experience-left{
@@ -262,13 +278,13 @@ hr{
 
 .work-name, .company{
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: antiquewhite;
 }
 
 .work-years, .work-description, .experience-technologies{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1.3em;
     color: ghostwhite;
 }
 
@@ -294,99 +310,4 @@ hr{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #4d4d4d;
-}
-
-
-@media all and (max-width: 2565px) {
-    .material-icons{
-        font-size: 66px!important;
-    }
-
-    .person-name, .person-position{
-        font-size: 66px;
-    }
-
-    h1{
-        font-size: 4em;
-    }
-
-    .personal-details b{
-        font-size: 2.2em;
-    }
-
-    .personal-details span, .personal-details a{
-        font-size: 2em;
-    }
-
-    .skills h2, .specialization h2{
-        font-size: 3em;
-    }
-
-    .skills span, .experience span{
-        font-size: 32px;
-        border-bottom: 2px solid antiquewhite;
-    }
-
-    .work-experience h2{
-        font-size: 3em;
-    }
-
-    .work-name, .company{
-        font-size: 2.6em;
-    }
-
-    .work-years, .work-description, .experience-technologies{
-        font-size: 30px;
-    }
-
-    .university, .faculty, .degree, .years{
-        font-size: 30px;
-    }
-}
-
-@media all and (max-width: 1920px) {
-    .material-icons{
-        font-size: 33px!important;
-    }
-
-    .person-name, .person-position{
-        font-size: 33px;
-    }
-
-    h1{
-        font-size: 2em;
-    }
-
-    .personal-details b{
-        font-size: 1.1em;
-    }
-
-    .personal-details span, .personal-details a{
-        font-size: 1em;
-    }
-
-    .skills h2, .specialization h2{
-        font-size: 1.5em;
-    }
-
-    .skills span, .experience span{
-        font-size: 16px;
-        border-bottom: 1px solid antiquewhite;
-    }
-
-    .work-experience h2{
-        font-size: 1.5em;
-    }
-
-    .work-name, .company{
-        font-size: 1.3em;
-    }
-
-    .work-years, .work-description, .experience-technologies{
-        font-size: 15px;
-    }
-
-    .university, .faculty, .degree, .years{
-        font-size: 18px;
-    }
 }
