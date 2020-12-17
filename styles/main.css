@@ -27,6 +27,14 @@ hr{
     width: 100%;
 }
 
+.about-me-info{
+    color: ghostwhite;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
 .avatar-image{
     width: 100%;
     height: 100%;
@@ -45,6 +53,11 @@ hr{
 
 .education{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-info{
     display: flex;
     flex-direction: row;
 }
@@ -82,7 +95,6 @@ hr{
 
 .faculty, .degree, .years, .university {
     font-size: 15px;
-    font-weight: 900;
     color: ghostwhite;
 }
 
@@ -141,7 +153,6 @@ hr{
 .personal-details a{
     color: ghostwhite;
     font-size: 1.3em;
-    font-weight: bold;
     font-style: italic;
     text-decoration: none;
     padding-left: 3px;
@@ -150,7 +161,6 @@ hr{
 .personal-details b{
     color: antiquewhite;
     font-size: 1.2em;
-    font-weight: bold;
 }
 
 .personal-details p{
@@ -160,7 +170,6 @@ hr{
 .personal-details span{
     color: ghostwhite;
     font-size: 1.3em;
-    font-weight: bold;
     font-style: italic;
     padding-left: 3px;
 }
@@ -223,7 +232,6 @@ hr{
 .skills span, .work-experience span{
     padding: 1px;
     margin: 5px;
-    font-weight: bolder;
     font-style: italic;
     color: ghostwhite;
     border-bottom: 1px solid antiquewhite;
@@ -277,13 +285,11 @@ hr{
 }
 
 .work-name, .company{
-    font-weight: bold;
     font-size: 1.5em;
     color: antiquewhite;
 }
 
 .work-years, .work-description, .experience-technologies{
-    font-weight: bold;
     font-size: 1.3em;
     color: ghostwhite;
 }
