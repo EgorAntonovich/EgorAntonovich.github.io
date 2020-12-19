@@ -393,6 +393,7 @@ hr{
         justify-content: center;
         background-color: gray;
         border: 1px solid ghostwhite;
+        margin-top: 20px;
     }
 
     .download-button-mobile a{
@@ -413,6 +414,10 @@ hr{
 
     ::-webkit-scrollbar{
         display: none;
+    }
+
+    .work-experience-left{
+        width: 50%;
     }
 }
 
