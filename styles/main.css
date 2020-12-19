@@ -31,6 +31,7 @@ hr{
     color: ghostwhite;
     font-size: 1.3em;
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
     font-style: italic;
 }
@@ -45,6 +46,7 @@ hr{
 .container{
     align-content: stretch;
     display: flex;
+    display:-webkit-flex;
     flex-direction: row;
     margin: 15vh 10vh 15vh 10vh;
     background: #696969;
@@ -54,16 +56,19 @@ hr{
 .education{
     width: 100%;
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
 }
 
 .education-info{
     display: flex;
+    display:-webkit-flex;
     flex-direction: row;
 }
 
 .education-left, .education-right{
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
     width: 50%;
 }
@@ -74,8 +79,8 @@ hr{
 
 .work-experience-left, .work-experience-right{
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
-
 }
 
 .work-experience-left{
@@ -85,6 +90,7 @@ hr{
 
 .experience{
     display: flex;
+    display:-webkit-flex;
     flex-direction: row;
 }
 
@@ -100,6 +106,7 @@ hr{
 
 .frontend, .backend, .databases, .tools, .other-skills{
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
 }
 
@@ -113,6 +120,7 @@ hr{
 
 .left-side-container{
     display:flex;
+    display:-webkit-flex;
     max-width: 36%;
     width: 40%;
 }
@@ -120,6 +128,7 @@ hr{
 .list{
     padding: 10px;
     display: flex;
+    display:-webkit-flex;
     flex-flow: column;
     height: 40%;
     justify-content: inherit;
@@ -137,6 +146,7 @@ hr{
 
 .menu-list{
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
@@ -146,6 +156,7 @@ hr{
 .person{
     margin: -3vh 0 -3vh 0;
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
     width: 100%;
 }
@@ -182,6 +193,7 @@ hr{
 
 .person-info{
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -202,6 +214,7 @@ hr{
 
 .person-social-links{
     display: flex;
+    display:-webkit-flex;
     flex-direction: row;
     position: relative;
     justify-content: center;
@@ -220,6 +233,7 @@ hr{
 
 .right-side-container{
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
     padding: 10px 20px 10px 20px;
     overflow-y: scroll;
@@ -243,6 +257,7 @@ hr{
 
 .skills-list{
     display: flex;
+    display:-webkit-flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -267,6 +282,7 @@ hr{
 
 .work-experience{
     display: flex;
+    display:-webkit-flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
