@@ -195,7 +195,7 @@ hr{
 }
 
 .person-name, .person-position{
-    font-family: Blippo, fantasy;
+    font-family: Blippo;
     font-size: 2em;
     color: antiquewhite;
 }
@@ -350,5 +350,20 @@ hr{
 
     ::-webkit-scrollbar{
         display: none;
+    }
+}
+
+@media all and (max-width: 801px) {
+    .container{
+        margin: 15vh 0 15vh 0;
+    }
+
+    .left-side-container{
+        max-width: 45%;
+        width: 50%;
+    }
+
+    .right-side-container{
+        max-width: 50%;
     }
 }
