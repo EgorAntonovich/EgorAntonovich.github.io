@@ -391,14 +391,27 @@ hr{
     background: #4d4d4d;
 }
 
+.person-social-links>.person-info{
+    width: 32px;
+    height: 32px;
+}
+
+
+
 @media all and (max-width: 801px) {
     .container{
         margin: 15vh 0 15vh 0;
     }
 
     .left-side-container{
-        max-width: 45%;
+        max-width: 50%;
         width: 50%;
+        flex-direction: column;
+        padding-left: 15px;
+    }
+
+    .left-menu, .menu-list, .list{
+        flex-direction: row;
     }
 
     .right-side-container{
@@ -429,9 +442,27 @@ hr{
         background-image: url("../images/social-networks/skype_color.png");
         background-size: 48px 48px;
     }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .person{
+        margin: 0;
+    }
+
+    .container{
+        height: 73vh;
+    }
 }
 
-@media all and (max-width: 415px) {
+@media all and (max-width: 730px){
+    .left-menu{
+        display: none;
+    }
+}
+
+@media all and (max-width: 601px) {
     .container{
         margin:0;
         height: 100%;
@@ -447,6 +478,7 @@ hr{
         max-width: none;
         width: 100%;
         flex-direction: column;
+        padding-left: 0;
     }
 
     .right-side-container{
@@ -458,8 +490,13 @@ hr{
         width: 100%;
     }
 
+    .left-menu{
+        display: flex;
+    }
+
     .menu-list{
         flex-direction: row;
+        width: 100%;
     }
 
     .download-button{
@@ -500,7 +537,7 @@ hr{
     }
 
     .material-icons{
-        font-size: 1.5em!important;
+        font-size: 2.5em!important;
         color: antiquewhite;
         border-radius: 26px;
         background-color: black;
@@ -531,5 +568,13 @@ hr{
         background-size: 32px 32px;
     }
 }
+
+@media all and (max-width: 340px){
+    .material-icons{
+        font-size: 1.5em!important;
+    }
+}
+
+
 
 

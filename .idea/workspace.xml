@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Add icons styling. Change quick links style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <workItem from="1607873233675" duration="32718000" />
       <workItem from="1608031905612" duration="27122000" />
       <workItem from="1608329909295" duration="17037000" />
-      <workItem from="1608489568637" duration="6247000" />
+      <workItem from="1608489568637" duration="8891000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1607510005695</created>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608500281756</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Change cv links">
+      <created>1608500330050</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608500330050</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +280,7 @@
     <MESSAGE value="Add icons styling. Change quick links style" />
     <MESSAGE value="Fix links." />
     <MESSAGE value="Fix minor bugs.Add cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix minor bugs.Add cv" />
+    <MESSAGE value="Change cv links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change cv links" />
   </component>
 </project>
