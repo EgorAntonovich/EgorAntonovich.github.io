@@ -477,6 +477,7 @@ hr{
     .download-button-mobile a{
         display: flex;
         flex-direction: row;
+        padding: 10px;
     }
 
     .download-button-mobile span{
