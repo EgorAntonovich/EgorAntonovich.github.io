@@ -4,6 +4,10 @@ body{
     background-image: url("../images/backgrounds/background-white.jpg");
 }
 
+a{
+    text-decoration: none;
+}
+
 img {
     width: 100%;
     height: 100%;
@@ -25,6 +29,55 @@ h2{
 
 hr{
     width: 100%;
+}
+
+.linkedin, .telegram, .skype, .instagram{
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    margin: 0 3px 0 3px;
+    background-color: antiquewhite;
+    border-radius: 40px;
+}
+
+.person-social-links span:hover{
+    box-shadow: 0 0 20px antiquewhite;
+    border-radius: 40px;
+}
+
+.linkedin{
+    background-image: url("../images/social-networks/linkedin_black.png");
+
+}
+
+.linkedin:hover{
+    background-image: url("../images/social-networks/linkedin_color.png");
+}
+
+.instagram{
+    background-image: url("../images/social-networks/instagram_black.png");
+
+}
+
+.instagram:hover{
+    background-image: url("../images/social-networks/instagram_color.png");
+}
+
+.skype{
+    background-image: url("../images/social-networks/skype_black.svg");
+}
+
+.skype:hover{
+    background-image: url("../images/social-networks/skype_color.svg");
+}
+
+.telegram{
+    background-image: url("../images/social-networks/telegram_black.png");
+}
+
+.telegram:hover{
+    background-image: url("../images/social-networks/telegram_color.png");
 }
 
 .about-me-info{
@@ -126,22 +179,31 @@ hr{
 }
 
 .list{
-    padding: 10px;
     display: flex;
     display:-webkit-flex;
     flex-flow: column;
-    height: 40%;
+    height: 100%;
     justify-content: inherit;
+}
+
+.list div{
+    padding: 0.2em;
+}
+
+.list div:hover{
+    background-color: black;
+    border-radius: 2em;
+    box-shadow: 0 0 1em antiquewhite;
+}
+
+.material-icons:hover{
+    color: antiquewhite;
 }
 
 .material-icons{
     font-size: 2.5em!important;
     color: ghostwhite;
     border-radius: 26px;
-}
-
-.material-icons:hover{
-    box-shadow: 0 0 26px antiquewhite;
 }
 
 .menu-list{
@@ -211,7 +273,7 @@ hr{
 }
 
 .person-name, .person-position{
-    font-family: Blippo;
+    font-family: fantasy;
     font-size: 2em;
     color: antiquewhite;
 }
@@ -222,17 +284,6 @@ hr{
     flex-direction: row;
     position: relative;
     justify-content: center;
-    width: 50%;
-}
-.person-social-links img{
-    border: none;
-    border-radius: 20px;
-    box-shadow: none;
-    background: ghostwhite;
-}
-
-.person-social-links img:hover{
-    box-shadow: 0 0 20px antiquewhite;
 }
 
 .right-side-container{
@@ -273,10 +324,6 @@ hr{
 
 .skills h2, .specialization h2{
     font-size: 1.5em;
-}
-
-.telegram, .instagram, .skype, .linkedin{
-    padding: 2px;
 }
 
 .university, .faculty, .degree, .years{
