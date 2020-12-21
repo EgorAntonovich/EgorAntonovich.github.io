@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Add icons styling. Change quick links style">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/EgorAntonovichResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/EgorAntonovichResume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="875df8b4-e115-4c6b-bc1a-36e2e741f8a8" name="Default Changelist" comment="Add icons styling. Change quick links style" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +58,7 @@
       <workItem from="1608031905612" duration="27122000" />
       <workItem from="1608329909295" duration="17037000" />
       <workItem from="1608489568637" duration="10921000" />
-      <workItem from="1608548154962" duration="458000" />
+      <workItem from="1608548154962" duration="773000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1607510005695</created>
@@ -246,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608503182726</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Change resume. Add work experience">
+      <created>1608548677139</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1608548677139</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +268,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ad some styles. Create left side of site" />
     <MESSAGE value="Add image borders. Change styles." />
     <MESSAGE value="Change colors. Styling icons" />
     <MESSAGE value="Add background. Add social networks icons and links. add gray colorstyle. Add rightside menu. Add new scrollbar." />
@@ -290,6 +292,7 @@
     <MESSAGE value="Fix minor bugs.Add cv" />
     <MESSAGE value="Change cv links" />
     <MESSAGE value="Responsive fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive fixes" />
+    <MESSAGE value="Change resume. Add work experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change resume. Add work experience" />
   </component>
 </project>
